@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pascal Client — лаунчер для Minecraft Bedrock</title>
+<meta name="description" content="Pascal Client — лаунчер для удобного запуска официального Minecraft Bedrock Edition на Windows.">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<style>
+html{scroll-behavior:smooth}
+body{margin:0;background:#0d1117}
+a{color:#9aa7bb}a:hover{color:#e8ecf3}
+</style>
+</head>
+<body>
+<div style="width:100%;box-sizing:border-box;background:#0d1117;color:#e8ecf3;font-family:Inter,Segoe UI,Arial,sans-serif;font-size:16px;line-height:1.6">
+
+<header style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:16px 48px;border-bottom:1px solid #1f2837">
+<a href="#top" style="display:flex;align-items:center;gap:12px;text-decoration:none">
+<img src="assets/avatar.webp" alt="Аватар Pascal Client" style="width:44px;height:44px;border-radius:12px;object-fit:cover;background:#000;display:block">
+<span style="font-family:'Space Grotesk',Inter,sans-serif;font-weight:700;font-size:22px;color:#F0B429">Pascal Client</span>
+</a>
+<nav style="display:flex;align-items:center;gap:28px;flex-wrap:wrap">
+<a href="#features" style="text-decoration:none;font-weight:500">Возможности</a>
+<a href="#screens" style="text-decoration:none;font-weight:500">Скриншоты</a>
+<a href="#safe" style="text-decoration:none;font-weight:500">О безопасности</a>
+</nav>
+<div style="display:flex;gap:10px">
+<a href="#download" aria-label="Скачать Pascal Client" style="display:flex;align-items:center;justify-content:center;width:56px;height:44px;border-radius:12px;background:#1a7f37;color:#ffffff">
+<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 11l5 5 5-5"/><path d="M5 21h14"/></svg>
+</a>
+<a href="https://github.com/ВАШ_ЛОГИН/ВАШ_РЕПО" aria-label="Pascal Client на GitHub" style="display:flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:12px;border:1px solid #2a3547;color:#e8ecf3">
+<svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+</a>
+</div>
+</header>
+
+<section id="top" style="display:flex;flex-wrap:wrap;align-items:center;gap:56px;padding:72px 48px 64px;max-width:1344px;margin:0 auto;box-sizing:border-box;width:100%">
+<div style="flex:1 1 440px;display:flex;flex-direction:column;gap:24px;align-items:flex-start">
+<span style="display:inline-block;padding:6px 14px;border-radius:999px;border:1px solid #2a3547;color:#F0B429;font-size:14px;font-weight:500">Bedrock launcher · версия 0.1.0</span>
+<div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap">
+<img src="assets/avatar.webp" alt="Аватар Pascal Client" style="width:96px;height:96px;border-radius:24px;object-fit:cover;background:#000;display:block">
+<h1 style="margin:0;font-family:'Space Grotesk',Inter,sans-serif;font-weight:700;font-size:68px;line-height:1.05;letter-spacing:-1px">Pascal <span style="color:#F0B429">Client</span></h1>
+</div>
+<p style="margin:0;font-size:20px;color:#b4bfd0;max-width:520px">Лаунчер для удобного запуска официального Minecraft Bedrock Edition на Windows. Серверы, папки игры и настройки в одном окне.</p>
+<div style="display:flex;gap:12px;flex-wrap:wrap">
+<a href="#download" style="display:inline-flex;align-items:center;gap:10px;padding:14px 26px;min-height:48px;box-sizing:border-box;border-radius:12px;background:#1a7f37;color:#ffffff;font-weight:600;text-decoration:none">
+<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 11l5 5 5-5"/><path d="M5 21h14"/></svg>
+Скачать для Windows
+</a>
+<a href="https://github.com/ВАШ_ЛОГИН/ВАШ_РЕПО" style="display:inline-flex;align-items:center;gap:10px;padding:14px 26px;min-height:48px;box-sizing:border-box;border-radius:12px;border:1px solid #2a3547;color:#e8ecf3;font-weight:600;text-decoration:none">
+<svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+GitHub
+</a>
+</div>
+<p style="margin:0;font-size:14px;color:#9aa7bb">Не чит-клиент · Не обходит лицензию · Не модифицирует память игры</p>
+</div>
+<div style="flex:1 1 520px;min-width:0">
+<img src="assets/servers.webp" alt="Окно Pascal Client: вкладка «Серверы»" style="width:100%;height:auto;display:block;border-radius:16px;border:1px solid #243044;box-shadow:0 24px 60px rgba(0,0,0,0.5)">
+</div>
+</section>
+
+<section id="features" style="padding:64px 48px;max-width:1344px;margin:0 auto;box-sizing:border-box;width:100%">
+<h2 style="margin:0 0 8px;font-family:'Space Grotesk',Inter,sans-serif;font-size:40px;font-weight:700">Что умеет Pascal Client</h2>
+<p style="margin:0 0 36px;color:#9aa7bb;font-size:18px">Всё, что нужно, чтобы быстро зайти в игру.</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:20px">
+<div style="padding:28px;border-radius:16px;background:#151b26;border:1px solid #1f2837;display:flex;flex-direction:column;gap:12px">
+<span style="display:flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:12px;background:#1d2636;color:#F0B429"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4l13 8-13 8z"/></svg></span>
+<h3 style="margin:0;font-size:20px;font-weight:600">Быстрый запуск</h3>
+<p style="margin:0;color:#9aa7bb">Запускай официальную игру одной кнопкой. Версия Preview тоже доступна.</p>
+</div>
+<div style="padding:28px;border-radius:16px;background:#151b26;border:1px solid #1f2837;display:flex;flex-direction:column;gap:12px">
+<span style="display:flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:12px;background:#1d2636;color:#F0B429"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="7" rx="2"/><rect x="3" y="13" width="18" height="7" rx="2"/><path d="M7 7.5h.01M7 16.5h.01"/></svg></span>
+<h3 style="margin:0;font-size:20px;font-weight:600">Закладки серверов</h3>
+<p style="margin:0;color:#9aa7bb">Сохраняй адреса серверов локально. Кнопка «В игру» добавляет сервер в список Minecraft через официальный URI.</p>
+</div>
+<div style="padding:28px;border-radius:16px;background:#151b26;border:1px solid #1f2837;display:flex;flex-direction:column;gap:12px">
+<span style="display:flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:12px;background:#1d2636;color:#F0B429"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></span>
+<h3 style="margin:0;font-size:20px;font-weight:600">Папки игры</h3>
+<p style="margin:0;color:#9aa7bb">Миры, ресурс-паки, behavior packs и com.mojang открываются в один клик.</p>
+</div>
+<div style="padding:28px;border-radius:16px;background:#151b26;border:1px solid #1f2837;display:flex;flex-direction:column;gap:12px">
+<span style="display:flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:12px;background:#1d2636;color:#F0B429"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg></span>
+<h3 style="margin:0;font-size:20px;font-weight:600">Настройки</h3>
+<p style="margin:0;color:#9aa7bb">Своё отображаемое имя и путь к собственному .exe, если у тебя не UWP-версия.</p>
+</div>
+</div>
+</section>
+
+<section id="screens" style="padding:64px 48px;max-width:1344px;margin:0 auto;box-sizing:border-box;width:100%">
+<h2 style="margin:0 0 8px;font-family:'Space Grotesk',Inter,sans-serif;font-size:40px;font-weight:700">Как это выглядит</h2>
+<p style="margin:0 0 36px;color:#9aa7bb;font-size:18px">Тёмный интерфейс с боковым меню и жёлтыми акцентами.</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,520px),1fr));gap:28px">
+<figure style="margin:0;grid-column:1/-1;display:flex;flex-direction:column;gap:12px">
+<img src="assets/play.webp" alt="Окно Pascal Client: вкладка «Играть»" style="width:100%;height:auto;display:block;border-radius:16px;border:1px solid #243044">
+<figcaption style="color:#9aa7bb;font-size:15px">Играть: запуск Minecraft Bedrock Edition и версии Preview.</figcaption>
+</figure>
+<figure style="margin:0;display:flex;flex-direction:column;gap:12px">
+<img src="assets/folders.webp" alt="Окно Pascal Client: вкладка «Папки»" style="width:100%;height:auto;display:block;border-radius:16px;border:1px solid #243044">
+<figcaption style="color:#9aa7bb;font-size:15px">Папки: миры, ресурс-паки и behavior packs под рукой.</figcaption>
+</figure>
+<figure style="margin:0;display:flex;flex-direction:column;gap:12px">
+<img src="assets/settings.webp" alt="Окно Pascal Client: вкладка «Настройки»" style="width:100%;height:auto;display:block;border-radius:16px;border:1px solid #243044">
+<figcaption style="color:#9aa7bb;font-size:15px">Настройки: имя и свой путь к игре.</figcaption>
+</figure>
+</div>
+</section>
+
+<section id="safe" style="padding:64px 48px;max-width:1344px;margin:0 auto;box-sizing:border-box;width:100%">
+<div style="padding:40px;border-radius:20px;background:#151b26;border:1px solid #1f2837;display:flex;flex-direction:column;gap:24px">
+<h2 style="margin:0;font-family:'Space Grotesk',Inter,sans-serif;font-size:36px;font-weight:700">Честно о том, что это</h2>
+<p style="margin:0;color:#b4bfd0;font-size:18px;max-width:760px">Pascal Client — лаунчер, а не чит-клиент. Он работает только с официальной копией игры.</p>
+<div style="display:flex;gap:16px 32px;flex-wrap:wrap">
+<span style="display:inline-flex;align-items:center;gap:10px;font-weight:500"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Не модифицирует память игры</span>
+<span style="display:inline-flex;align-items:center;gap:10px;font-weight:500"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Не обходит лицензию</span>
+<span style="display:inline-flex;align-items:center;gap:10px;font-weight:500"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Не добавляет читы</span>
+</div>
+<p style="margin:0;color:#9aa7bb">Для работы нужна установленная копия Minecraft из Microsoft Store / Xbox.</p>
+</div>
+</section>
+
+<section id="download" style="padding:64px 48px 80px;max-width:1344px;margin:0 auto;box-sizing:border-box;width:100%;text-align:center;display:flex;flex-direction:column;align-items:center;gap:20px">
+<img src="assets/avatar.webp" alt="Аватар Pascal Client" style="width:88px;height:88px;border-radius:22px;object-fit:cover;background:#000;display:block">
+<h2 style="margin:0;font-family:'Space Grotesk',Inter,sans-serif;font-size:44px;font-weight:700">Скачай Pascal Client</h2>
+<p style="margin:0;color:#9aa7bb;font-size:18px">Версия 0.1.0 · для Windows</p>
+<a href="https://github.com/ВАШ_ЛОГИН/ВАШ_РЕПО/releases/latest" style="display:inline-flex;align-items:center;gap:10px;padding:16px 34px;min-height:52px;box-sizing:border-box;border-radius:14px;background:#1a7f37;color:#ffffff;font-weight:600;font-size:18px;text-decoration:none">
+<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 11l5 5 5-5"/><path d="M5 21h14"/></svg>
+Скачать для Windows
+</a>
+</section>
+
+<footer style="padding:28px 48px;border-top:1px solid #1f2837;color:#9aa7bb;font-size:14px;text-align:center">
+Pascal Client — неофициальный проект, не связан с Mojang Studios и Microsoft. Minecraft — товарный знак Mojang Studios.
+</footer>
+
+</div>
+</body>
+</html>
